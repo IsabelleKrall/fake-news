@@ -1,2 +1,2 @@
-# fake-news
-First assignment for Webbutvecklare @ Yrgo. 
+# Fake-News
+First assignment for Webbutvecklare @ Yrgo.
