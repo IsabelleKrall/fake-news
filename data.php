@@ -27,7 +27,7 @@ $news = [
   [
     'title'=> 'This is Bruce',
     'content' => file_get_contents('content1.txt'),
-    'picture' => 'pictures/1.jpeg',
+    'picture' => 'pictures/1.jpg',
 	 	'author' => 1,
     'publishedDate' => date("F j, Y, g:i a"),
     'likeCounter' => 6,
@@ -35,7 +35,7 @@ $news = [
   [
     'title'=> 'Lorem',
     'content' => file_get_contents('content2.txt'),
-    'picture' => 'img/02.png',
+    'picture' => 'pictures/2.jpg',
     'author' => 2,
     'publishedDate' => date("F j, Y, g:i a"),
     'likeCounter' => 3,
@@ -43,7 +43,7 @@ $news = [
   [
     'title'=> 'Lorem',
     'content' => file_get_contents('content3.txt'),
-    'picture' => 'img/03.png',
+    'picture' => 'pictures/3.jpg',
     'author' => 3,
     'publishedDate' => date("F j, Y, g:i a"),
     'likeCounter' => 12,
@@ -51,7 +51,7 @@ $news = [
   [
     'title'=> 'Lorem',
     'content' => file_get_contents('content4.txt'),
-    'picture' => 'img/04.png',
+    'picture' => 'pictures/4.jpg',
     'author' => 4,
     'publishedDate' => date("F j, Y, g:i a"),
     'likeCounter' => 20,
@@ -59,7 +59,7 @@ $news = [
   [
 	 'title'=> 'Lorem',
 	 'content' => file_get_contents('content5.txt'),
-	 'picture' => 'img/05.png',
+	 'picture' => 'pictures/5.jpg',
 	 'author' => 5,
 	 'publishedDate' => date("F j, Y, g:i a"),
 	 'likeCounter' => 9,

@@ -11,7 +11,7 @@ require __DIR__.'/data.php';
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		  <link rel="stylesheet" href="CSS/bootswatch.css">
-		   <link rel="stylesheet" href="style.css">
+		   <link rel="stylesheet" href="CSS/style.css">
 		  <title></title>
     </head>
     <body>
@@ -48,16 +48,12 @@ require __DIR__.'/data.php';
 								<h4>Author: <?php echo $author['name'] ?></h4>
 								<?php endif; ?>
 								<?php endforeach; ?>
-
 							</div>
 
-
 						  <div class="card-body">
-							 <div class="img"><?php echo $post['picture'] ?>
 
-							 </div>
 
-							  <img style="height: 300px; width: 100%; display: block;" src="<?php echo $post['picture'] ?>">
+							 <img class="img" src="<?php echo $post['picture'] ?>">
 							 <h4 class="card-title"><?php echo $post['title'] ?></h4>
 							 <p class="card-text"><?php echo $post['content'] ?></p>
 							 <p>Written: <?php echo $post['publishedDate'] ?></p>
