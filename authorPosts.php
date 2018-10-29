@@ -8,7 +8,7 @@ $news = array_filter($news, 'findArticlesById')
 
 <main class="mt-4">
 	<div class="container">
-		<div class="row">
+		<div class="row mainContainer">
 			<?php usort($news,'sortByDate');?>
 			<?php foreach ($news as $post): ?>
 				<div class="col-10">
@@ -16,7 +16,6 @@ $news = array_filter($news, 'findArticlesById')
 						<div class="card-header">
 							<?php foreach ($authors as $author): ?>
 								<?php if ($author['id'] === $post['author']): ?>
-
 									<h4>Author: <a id="link" href="authorPosts.php?id=<?php echo $author['id'];?>">
 										<?php echo $author['name'] ?></h4>
 									</a>
