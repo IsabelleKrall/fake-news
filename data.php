@@ -33,7 +33,7 @@ $news = [
     'likeCounter' => 6,
   ],
   [
-    'title'=> 'Lorem',
+    'title'=> 'And why do we fall?',
     'content' => file_get_contents('content/content2.txt'),
     'picture' => 'pictures/2.jpg',
     'author' => 2,
@@ -57,7 +57,7 @@ $news = [
     'likeCounter' => 20,
   ],
   [
-	 'title'=> 'Lorem',
+	 'title'=> 'Things always get worse before they get better!',
 	 'content' => file_get_contents('content/content5.txt'),
 	 'picture' => 'pictures/5.jpg',
 	 'author' => 5,
@@ -65,7 +65,7 @@ $news = [
 	 'likeCounter' => 9,
   ],
   [
-    'title'=> 'This is Bruce',
+    'title'=> 'You know how to fight six men',
     'content' => file_get_contents('content/content1_1.txt'),
     'picture' => 'pictures/1.jpg',
 	 'author' => 1,
@@ -73,7 +73,7 @@ $news = [
     'likeCounter' => 6,
   ],
   [
-    'title'=> 'Lorem',
+    'title'=> 'Good luck. Master Wayne!',
     'content' => file_get_contents('content/content2_1.txt'),
     'picture' => 'pictures/2.jpg',
     'author' => 2,
@@ -81,7 +81,7 @@ $news = [
     'likeCounter' => 3,
   ],
   [
-    'title'=> 'Lorem',
+    'title'=> 'Breathe in your fears',
     'content' => file_get_contents('content/content3_1.txt'),
     'picture' => 'pictures/3.jpg',
     'author' => 3,
@@ -89,7 +89,7 @@ $news = [
     'likeCounter' => 12,
   ],
   [
-    'title'=> 'Lorem',
+    'title'=> 'So which of you fine gentlemen would like to join our team?',
     'content' => file_get_contents('content/content4_1.txt'),
     'picture' => 'pictures/4.jpg',
     'author' => 4,
@@ -97,7 +97,7 @@ $news = [
     'likeCounter' => 20,
   ],
   [
-	 'title'=> 'Lorem',
+	 'title'=> 'The story about Gotham',
 	 'content' => file_get_contents('content/content5_1.txt'),
 	 'picture' => 'pictures/5.jpg',
 	 'author' => 5,
