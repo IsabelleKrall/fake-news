@@ -1,6 +1,7 @@
 body {
 	width: 100%;
 	height: 100%;
+
 }
 
 
@@ -9,4 +10,27 @@ body {
 	height: 350px;
 	margin-bottom: 20px;
 	display: block;
+}
+
+#link {
+	text-decoration: none;
+	color: white;
+}
+
+#link:hover {
+	color: #E79A9C;
+}
+
+
+.mainContainer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.jumbotronBox {
+	width: 100%;
+	height: 100%;
+	background-color: white;
 }
