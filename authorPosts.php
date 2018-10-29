@@ -32,9 +32,9 @@ $news = array_filter($news, 'findArticlesById')
 							</div><!--<div class="card-body">-->
 							</div>
 						</div><!--<div class="col-10">-->
-				<?php endforeach; ?>
-		</div><!--<div class="row">-->
-	</div><!--<div class="container">-->
-</main>
-</body>
-</html>
+						<?php endforeach; ?>
+					</div><!--<div class="row">-->
+					</div><!--<div class="container">-->
+					</main>
+				</body>
+				</html>
