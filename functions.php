@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-function sortByDate($a, $b) {
+function sortByDate(array $a, array $b): int {
  return strcmp($a['date'], $b['date']);
 }
 
