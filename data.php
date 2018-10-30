@@ -19,9 +19,6 @@ $authors = [
 	],
 ];
 
-
-
-
 $news = [
   [
 		'id' => 10,
@@ -121,10 +118,10 @@ $comments = [
   ['name' => 'Bruce Lee', 'message' => 'Faketastic!', 'postId' => 2],
   ['name' => 'Pablo Picasso', 'message' => 'Interesting..', 'postId' => 3],
 	['name' => 'Marco Polo', 'message' => 'Great', 'postId' => 4],
-	['name' => 'Gabriel', 'message' => 'BAD!', 'postId' => 5],
+	['name' => 'Lucky Luke', 'message' => 'BAD!', 'postId' => 5],
 	['name' => 'King Arthur', 'message' => 'Good!', 'postId' => 6],
-	['name' => 'King Arthur', 'message' => 'Good!', 'postId' => 7],
-	['name' => 'King Arthur', 'message' => 'Good!', 'postId' => 8],
-	['name' => 'King Arthur', 'message' => 'Good!', 'postId' => 9],
-	['name' => 'King Arthur', 'message' => 'Good!', 'postId' => 10],
+	['name' => 'Jack', 'message' => 'Titanic', 'postId' => 7],
+	['name' => 'Claude Monet', 'message' => 'Beautiful picture', 'postId' => 8],
+	['name' => 'Batman', 'message' => 'Oh no!', 'postId' => 9],
+	['name' => 'Queen Elizabeth', 'message' => 'God save the queen!', 'postId' => 10],
 ];
