@@ -2,17 +2,18 @@
 require __DIR__.'/data.php';
 require __DIR__.'/functions.php';
 
-if(isset($_POST ['name'], $_POST['message'], $_POST['author'])) {
+//Displays comments
+if(isset($_POST ['name'], $_POST['message'], $_POST['postId'])) {
 	$name = $_POST['name'];
 	$message = $_POST['message'];
-	$author = (int)$_POST['author'];
-	$newComment = ['name' => $name, 'message' => $message, 'author' => $author];
+	$postId = (int)$_POST['postId'];
+	$newComment = ['name' => $name, 'message' => $message, 'postId' => $postId];
 	array_push($comments, $newComment);
 }
-	//Sort news items
-	usort($news, 'sortByDate');
+//Sort news items
+usort($news, 'sortByDate');
 
-	require __DIR__.'/post.php';
+require __DIR__.'/post.php';
 ?>
 </body>
 </html>
