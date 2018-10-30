@@ -22,9 +22,6 @@ require __DIR__.'/data.php';
   <div class="collapse navbar-collapse" id="navbarColor01">
 	 <ul class="navbar-nav mr-auto">
 	   <li class="nav-item">
-		  <a class="nav-link" href="#">Authors</a>
-	  </li>
-	   <li class="nav-item">
 		  <a class="nav-link" href="about.php">About</a>
 	   </li>
 	 </ul>

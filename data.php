@@ -108,10 +108,10 @@ $news = [
 
 //test: add comments field below
 $comments = [
-    ['name' => 'Andrew Cunanan', 'message' => 'My father. My father. He\'s a liar. My father\'s a thief.', 'author' => 1],
-    ['name' => 'Modesto Cunanan', 'message' => 'Don\'t believe a word they say.', 'author' => 2],
-    ['name' => 'Gianni Versace', 'message' => 'Success only comes with hard work.', 'author' => 3],
-	 ['name' => 'Marco Polo', 'message' => 'Great', 'author' => 4],
-	 ['name' => 'Gabriel', 'message' => 'BAD!', 'author' => 5],
-	 ['name' => 'King Arthur', 'message' => 'Good!', 'author' => 5],
+  ['name' => 'Shania Twain', 'message' => 'Reminds me of myself..', 'author' => 1],
+  ['name' => 'Bruce Lee', 'message' => 'Faketastic!', 'author' => 2],
+  ['name' => 'Pablo Picasso', 'message' => 'Interesting..', 'author' => 3],
+	['name' => 'Marco Polo', 'message' => 'Great', 'author' => 4],
+	['name' => 'Gabriel', 'message' => 'BAD!', 'author' => 5],
+	['name' => 'King Arthur', 'message' => 'Good!', 'author' => 5],
 ];
