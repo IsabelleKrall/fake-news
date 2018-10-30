@@ -12,8 +12,8 @@
 									</a>
 								<?php endif; ?>
 							<?php endforeach; ?>
-						</div>
-
+						</div><!-- card-header -->
+						<!-- articles-->
 						<div class="card-body">
 							<img class="img" src="<?php echo $post['picture'] ?>">
 							<h4 class="card-title"><?php echo $post['title'] ?></h4>
@@ -23,39 +23,36 @@
 
 
 							<div class="card-header">
-							<h4 class="card-title">Comments</h4>
-						<?php foreach ($comments as $comment): ?>
-							<?php if ($post['id'] === $comment['postId']): ?>
+								<h4 class="card-title">Comments</h4>
+								<?php foreach ($comments as $comment): ?>
+									<?php if ($post['id'] === $comment['postId']): ?>
+										<b><?php echo $comment['name'] ?>:</b></br>
+										<h6><?php echo $comment['message'] ?></h6></br>
+									<?php endif; ?>
+								<?php endforeach ?>
 
-								<b><?php echo $comment['name'] ?>:</b></br>
-								<h6><?php echo $comment['message'] ?></h6></br>
-							<?php endif; ?>
-						<?php endforeach ?>
+								<!--commentsBox-->
+								<div class="commentRow">
+									<form class="col-lg-6 offset-lg-3" action="index.php" method="post">
+										<hr>
+										<div class="form-group">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" class="form-control">
+										</div><!-- /form-group -->
 
-						<!--commentsBox-->
-						<div class="commentRow">
-							<form class="col-lg-6 offset-lg-3" action="index.php" method="post">
-								<hr>
-								<div class="form-group">
-									<label for="name">Name</label>
-									<input type="text" name="name" id="name" class="form-control">
-								</div><!-- /form-group -->
-
-								<div class="form-group">
-									<label for="message">Message</label>
-									<textarea name="message" id="message" class="form-control"></textarea>
-								</div><!-- /form-group -->
-								<input type="hidden" name="author" id="author" value="<?php echo $post['author']?>">
-								<button type="submit" class="btn btn-primary">Add comment</button>
-							</form><!-- /col-lg-6 -->
-						</div><!-- /commentRow -->
-						</div>
-							</div><!--card-body-->
-					</div><!--"card text-white bg-primary mb-3"-->
-				</div><!--"col-10">-->
+										<div class="form-group">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" class="form-control"></textarea>
+										</div><!-- /form-group -->
+										<input type="hidden" name="postId" id="postId" value="<?php echo $post['id']?>">
+										<button type="submit" class="btn btn-primary">Add comment</button>
+									</form><!-- /col-lg-6 offset-lg-3 -->
+								</div><!-- /commentRow -->
+							</div><!-- /card-header -->
+						</div><!--/card-body-->
+					</div><!--/card text-white bg-primary mb-3"-->
+				</div><!--/col-10>-->
 			<?php endforeach; ?>
-		</div><!--commentRow-->
-
-
-	</div><!--<div class="container">-->
-	</main>
+		</div><!--/row mainContainer-->
+	</div><!--/container-->
+</main>
