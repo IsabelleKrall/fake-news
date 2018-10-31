@@ -1,5 +1,5 @@
-<main class="mt-4">
-	<div class="container">
+<main class="mt-5">
+	<div class=" mt-5 pt-4 container">
 		<div class="row mainContainer">
 			<?php foreach ($news as $post): ?>
 				<div class="col-10 mainContainer">
