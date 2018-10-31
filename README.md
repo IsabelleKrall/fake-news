@@ -1,4 +1,6 @@
 # Fake-News
+
+<img src="https://media.giphy.com/media/RmrjX0CnxmHug/giphy.gif width="100%">
 My first assignment for Webbutvecklare @ Yrgo.
 
 ## Testers
@@ -19,8 +21,7 @@ My first assignment for Webbutvecklare @ Yrgo.
 2. Start an apache development server
 
 ## Built width
-
-- PHP, HTML, CSS
+- PHP, HTML, CSS, Bootstrap, Bootswatch
 
 ## Author
 
