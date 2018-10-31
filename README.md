@@ -12,7 +12,7 @@ My first assignment for Webbutvecklare @ Yrgo.
 ## Installation
 ### Prerequisites
 
-- [Git](https://git-scm.com/) - To clone the repository
+- [GitHub Desktop](https://desktop.github.com/) - To clone the repository
 - [Apache Server](https://www.mamp.info/en/) - To run the application
 
 ### Installing
