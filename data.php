@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 $authors = [
 	['id' => 1,
-	 'name' => 'Isabelle Krall',
+	 'name' => 'Will Ferrell',
  	],
 	['id' => 2,
 	 'name' => 'Silvia Bernadotte',
@@ -15,7 +15,7 @@ $authors = [
 	 'name' => 'Benny Andersson',
 	],
 	['id' => 5,
-	 'name' => 'Gustav Carlsson',
+	 'name' => 'Scarlett Johansson',
 	],
 ];
 
