@@ -10,6 +10,6 @@ require __DIR__.'/head.php';
 	<hr class="my-4">
 	<p>Feel free to read and comment on our articles! We love fake comments as much as we adore fake news.</p>
 	<p class="lead">
-		<a class="btn btn-primary btn-lg" href="index.php" role="button">Read articles</a>
+		<a class="btn btn-secondary btn-lg" href="index.php" role="button">Read articles</a>
 	</p>
 </div>
