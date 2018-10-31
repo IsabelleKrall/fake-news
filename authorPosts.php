@@ -6,7 +6,6 @@ require __DIR__.'/functions.php';
 
 $news = array_filter($news, 'findArticlesById');
 
-
 //Sort news items
 usort($news, 'sortByDate');
 
