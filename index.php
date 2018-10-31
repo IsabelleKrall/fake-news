@@ -1,8 +1,11 @@
-<?php require __DIR__.'/head.php';
+<?php
+declare(strict_types=1);
+require __DIR__.'/head.php';
 require __DIR__.'/data.php';
 require __DIR__.'/functions.php';
 
-//Displays comments
+
+//Display comments
 if(isset($_POST ['name'], $_POST['message'], $_POST['postId'])) {
 	$name = $_POST['name'];
 	$message = $_POST['message'];
