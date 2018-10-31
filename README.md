@@ -1,6 +1,6 @@
 # Fake-News
 
-<img src="https://media.giphy.com/media/RmrjX0CnxmHug/giphy.gif width="100%">
+<img src="https://media.giphy.com/media/RmrjX0CnxmHug/giphy.gif" width="100%">
 My first assignment for Webbutvecklare @ Yrgo.
 
 ## Testers
