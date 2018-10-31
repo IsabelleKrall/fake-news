@@ -21,16 +21,16 @@ $authors = [
 
 $news = [
   [
-		'id' => 10,
+	 'id' => 10,
     'title'=> 'This is Bruce',
     'content' => file_get_contents('content/content1.txt'),
-    'picture' => 'pictures/6.jpg',
+    'picture' => 'pictures/11.jpg',
 	  'author' => 1,
     'date' => '2018-08-19',
     'likeCounter' => 6,
   ],
   [
-		'id' => 9,
+	 'id' => 9,
     'title'=> 'And why do we fall?',
     'content' => file_get_contents('content/content2.txt'),
     'picture' => 'pictures/2.jpg',
@@ -39,7 +39,7 @@ $news = [
     'likeCounter' => 3,
   ],
   [
-		'id' => 8,
+	 'id' => 8,
     'title'=> 'Revenge is about you making yourself feel better',
     'content' => file_get_contents('content/content3.txt'),
     'picture' => 'pictures/3.jpg',
@@ -48,7 +48,7 @@ $news = [
     'likeCounter' => 12,
   ],
   [
-		'id' => 7,
+	 'id' => 7,
     'title'=> 'This is my city',
     'content' => file_get_contents('content/content4.txt'),
     'picture' => 'pictures/4.jpg',
@@ -66,7 +66,7 @@ $news = [
 	 'likeCounter' => 9,
   ],
   [
-		'id' => 5,
+	 'id' => 5,
     'title'=> 'You know how to fight six men',
     'content' => file_get_contents('content/content1_1.txt'),
     'picture' => 'pictures/6.jpg',
@@ -75,7 +75,7 @@ $news = [
     'likeCounter' => 6,
   ],
   [
-		'id' => 4,
+	 'id' => 4,
     'title'=> 'Good luck. Master Wayne!',
     'content' => file_get_contents('content/content2_1.txt'),
     'picture' => 'pictures/7.jpg',
@@ -84,7 +84,7 @@ $news = [
     'likeCounter' => 3,
   ],
   [
-		'id' => 3,
+	 'id' => 3,
     'title'=> 'Breathe in your fears',
     'content' => file_get_contents('content/content3_1.txt'),
     'picture' => 'pictures/8.jpg',
@@ -93,7 +93,7 @@ $news = [
     'likeCounter' => 12,
   ],
   [
-		'id' => 2,
+	 'id' => 2,
     'title'=> 'So which of you fine gentlemen would like to join our team?',
     'content' => file_get_contents('content/content4_1.txt'),
     'picture' => 'pictures/9.jpg',

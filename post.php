@@ -18,7 +18,7 @@
 							<img class="img" src="<?php echo $post['picture'] ?>">
 							<h4 class="card-title"><?php echo $post['title'] ?></h4>
 							<p class="card-text"><?php echo $post['content'] ?></p>
-							<p>Written: <?php echo $post['date'] ?></p>
+							<p><?php echo 'Written: '. $post['date'] ?></p>
 							<button type="button" class="btn btn-secondary">Likes: <?php echo $post['likeCounter']?></button></br></br>
 
 
